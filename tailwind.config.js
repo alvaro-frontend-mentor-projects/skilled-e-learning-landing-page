@@ -19,7 +19,10 @@ module.exports = {
         fmGray: "#83869A",
         fmPink: "#F74780",
         fmLightPink: "#FFA7C3",
-      }
+      },
+      fontFamily: {
+        Jakarta: ["Plus Jakarta Sans", "sans-serif"],
+      },
     },
   },
   plugins: [],
