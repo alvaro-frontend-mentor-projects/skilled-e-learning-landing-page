@@ -8,7 +8,7 @@ const Navbar = () => {
         </h1>
         <button className='font-Jakarta text-[18px] text-white bg-fmDarkBlue hover:bg-fmLightBlue px-8 py-3.5 rounded-full '>
           Get Started
-          </button>
+        </button>
     </div>
   )
 }
