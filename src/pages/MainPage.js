@@ -12,7 +12,7 @@ const MainPage = () => {
     <>
 
         {/* HERO SECTION */}
-        <div className='flex flex-row mx-[160px] h-[640px] relative'>
+        <div className='hidden flex flex-row mx-[160px] h-[640px] relative'>
             {/* Left Column */}
             <div className='flex flex-col gap-10 w-[50%] justify-center pr-[100px]'>
                 <h1 className='font-Jakarta font-[800] text-[56px] leading-[70.5px]'>
