@@ -149,11 +149,11 @@ const MainPage = () => {
         </div>
 
         {/* FOOTER SECTION */}
-        <div className='flex flex-row h-[100px] justify-between items-center bg-fmDarkBlue px-[160px]'>
+        <div className='flex flex-row h-[120px] justify-between items-center bg-fmDarkBlue px-[160px]'>
             <h1 className='font-Jakarta font-[700] text-[35px] text-white'>
             skilled
             </h1>
-            <button className='font-Jakarta text-[18px] text-white bg-gradient-to-t from-[#F02AA6] to-[#FF6F48] hover:bg-fmLightBlue px-8 py-3.5 rounded-full '>
+            <button className='font-Jakarta text-[18px] text-white button-background hover:button-background-h px-8 py-3.5 rounded-full '>
             Get Started
             </button>
         </div>

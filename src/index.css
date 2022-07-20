@@ -3,3 +3,24 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer utilities {
+    .button-background {
+        background: linear-gradient(180deg, #4851FF -54.32%, #F02AA6 100%);
+    }
+
+    .button-background-h {
+        background: linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), linear-gradient(180deg, #4851FF -54.32%, #F02AA6 100%);
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
