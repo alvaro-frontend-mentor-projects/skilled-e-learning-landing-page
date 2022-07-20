@@ -13,7 +13,7 @@ const MainPage = () => {
     <>
 
         {/* HERO SECTION */}
-        <div className=' flex flex-row mx-[20px] md:mx-[40px] lg:mx-[160px]  md:h-[440px] lg:h-[640px]'>
+        <div className=' hidden flex flex-row mx-[20px] md:mx-[40px] lg:mx-[160px]  md:h-[440px] lg:h-[640px]'>
             {/* Left Column */}
             <div className='flex flex-col md:gap-6 lg:gap-10 md:w-[62%] lg:w-[50%] justify-center md:pr-[20px] lg:pr-[100px]'>
                 <h1 className='font-Jakarta font-[800] text-[40px] lg:text-[56px] md:leading-[50px] lg:leading-[70.5px]'>
@@ -39,7 +39,7 @@ const MainPage = () => {
 
 
         {/* FEATURES SECTION */}
-        <div className='bg-gradient-to-b from-[#FFFFFF] to-[#F0F1FF] z-0'>
+        <div className='hidden bg-gradient-to-b from-[#FFFFFF] to-[#F0F1FF] z-0'>
             <div className='mx-[20px] md:mx-[40px] lg:mx-[160px] pb-[140px]  pt-[130px] grid md:grid-cols-2 lg:grid-cols-3 gap-x-8 gap-y-20'>
                 {/* Box 1 */}
                 <div className='relative md:h-[259px] lg:h-[322px] rounded-2xl bg-gradient-to-t from-[#F02AA6] to-[#FF6F48] pl-8 pr-16 pt-16'>
@@ -151,7 +151,7 @@ const MainPage = () => {
         </div>
 
         {/* FOOTER SECTION */}
-        <div className='flex flex-row h-[120px] justify-between items-center bg-fmDarkBlue px-[20px] md:px-[40px] lg:px-[160px]'>
+        <div className='hidden flex flex-row h-[120px] justify-between items-center bg-fmDarkBlue px-[20px] md:px-[40px] lg:px-[160px]'>
             <h1 className='font-Jakarta font-[700] text-[35px] text-white'>
             skilled
             </h1>
