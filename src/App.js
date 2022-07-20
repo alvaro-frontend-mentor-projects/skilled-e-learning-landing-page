@@ -4,7 +4,7 @@ import MainPage from "./pages/MainPage";
 
 function App() {
   return (
-    <div>
+    <div 	>
       <Navbar></Navbar>
       <Routes>
         <Route path='/' element= {<MainPage/>}> </Route>

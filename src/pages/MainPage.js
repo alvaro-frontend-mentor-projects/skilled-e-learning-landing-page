@@ -1,5 +1,6 @@
 import React from 'react'
 import HeroImage from '../assets/image-hero-desktop.png'
+import HeroImageTablet from '../assets/image-hero-tablet.png'
 
 import svgDesign from '../assets/icon-design.svg'
 import svgPhotography from '../assets/icon-photography.svg'
@@ -12,32 +13,33 @@ const MainPage = () => {
     <>
 
         {/* HERO SECTION */}
-        <div className='hidden flex flex-row mx-[160px] h-[640px] relative'>
+        <div className=' flex flex-row mx-[20px] md:mx-[60px] lg:mx-[160px]  md:h-[440px] lg:h-[640px]'>
             {/* Left Column */}
-            <div className='flex flex-col gap-10 w-[50%] justify-center pr-[100px]'>
-                <h1 className='font-Jakarta font-[800] text-[56px] leading-[70.5px]'>
+            <div className='flex flex-col md:gap-6 lg:gap-10 md:w-[62%] lg:w-[50%] justify-center md:pr-[0px] lg:pr-[100px]'>
+                <h1 className='font-Jakarta font-[800] text-[40px] lg:text-[56px] md:leading-[50px] lg:leading-[70.5px]'>
                     Maximize skill,
                     minimize budget
                 </h1>
-                <p className='font-Jakarta text-[18px] text-fmGray'>
+                <p className='font-Jakarta md:text-[16px] lg:text-[18px] text-fmGray'>
                     Our modern courses across a range of in-demand skills will give you the knowledge you need to live the life you want.
                 </p>
                 <div>
-                    <button className=' font-Jakarta text-[18px] text-white button2-background hover:button2-background-h px-8 py-4 rounded-full '>
+                    <button className=' font-Jakarta md:text-[16px] lg:text-[18px] text-white button2-background hover:button2-background-h md:px-10 md:py-4 lg:px-8 lg:py-4 rounded-full '>
                         Get Started
                     </button>
                 </div>
                 
             </div>
             {/* Right Column */}
-            <div className='w-[50%]'>
-                <img src={HeroImage} alt="" className='absolute top-[-250px] left-[570px]'/> 
+            <div className='md:w-[38%] lg:w-[50%]'>
+                <img src={HeroImage} alt="" className='sm:hidden md:hidden lg:block absolute top-[-10rem] right-[-20rem] z-10'/> 
+                <img src={HeroImageTablet} className='sm:hidden md:block lg:hidden absolute top-[-6rem] right-[-20rem] z-10' alt="" />
             </div>
         </div>
 
 
         {/* FEATURES SECTION */}
-        <div className='bg-gradient-to-b from-[#FFFFFF] to-[#F0F1FF]'>
+        <div className='bg-gradient-to-b from-[#FFFFFF] to-[#F0F1FF] z-0'>
             <div className='mx-[160px] pb-[140px]  pt-[130px] grid grid-cols-3 gap-x-8 gap-y-20'>
                 {/* Box 1 */}
                 <div className='relative h-[322px] rounded-2xl bg-gradient-to-t from-[#F02AA6] to-[#FF6F48] pl-8 pr-16 pt-16'>
