@@ -23,7 +23,7 @@ const MainPage = () => {
                     Our modern courses across a range of in-demand skills will give you the knowledge you need to live the life you want.
                 </p>
                 <div>
-                    <button className=' font-Jakarta text-[18px] text-white bg-fmDarkBlue hover:bg-fmLightBlue px-8 py-4 rounded-full '>
+                    <button className=' font-Jakarta text-[18px] text-white button2-background hover:button2-background-h px-8 py-4 rounded-full '>
                         Get Started
                     </button>
                 </div>
@@ -58,7 +58,7 @@ const MainPage = () => {
                         <p className='text-fmGray text-[19px]'>
                             Learn the latest animation techniques to create stunning motion design and captivate your audience. 
                         </p>
-                        <p className='text-fmPink text-[18px] mt-auto font-[600]'>
+                        <p className='text-fmPink text-[18px] mt-auto font-[600] hover:opacity-[50%] cursor-pointer'>
                             Get Started
                         </p>
                     </div>
@@ -78,7 +78,7 @@ const MainPage = () => {
                         <p className='text-fmGray text-[19px]'>
                             Create beautiful, usable interfaces to help shape the future of how the web looks.
                         </p>
-                        <p className='text-fmPink text-[18px] mt-auto font-[600]'>
+                        <p className='text-fmPink text-[18px] mt-auto font-[600] hover:opacity-[50%] cursor-pointer'>
                             Get Started
                         </p>
                     </div>
@@ -98,7 +98,7 @@ const MainPage = () => {
                         <p className='text-fmGray text-[19px]'>
                             Explore critical fundamentals like lighting, composition, and focus to capture exceptional photos.
                         </p>
-                        <p className='text-fmPink text-[18px] mt-auto font-[600]'>
+                        <p className='text-fmPink text-[18px] mt-auto font-[600] hover:opacity-[50%] cursor-pointer'>
                             Get Started
                         </p>
                     </div>
@@ -118,7 +118,7 @@ const MainPage = () => {
                         <p className='text-fmGray text-[19px]'>
                             All you need to know to get started investing in crypto. Go from beginner to advanced with this 54 hour course.
                         </p>
-                        <p className='text-fmPink text-[18px] mt-auto font-[600]'>
+                        <p className='text-fmPink text-[18px] mt-auto font-[600] hover:opacity-[50%] cursor-pointer'>
                             Get Started
                         </p>
                     </div>
@@ -138,7 +138,7 @@ const MainPage = () => {
                         <p className='text-fmGray text-[19px]'>
                             A step-by-step playbook to help you start, scale, and sustain your business without outside investment.
                         </p>
-                        <p className='text-fmPink text-[18px] mt-auto font-[600]'>
+                        <p className='text-fmPink text-[18px] mt-auto font-[600] hover:opacity-[50%] cursor-pointer'>
                             Get Started
                         </p>
                     </div>
